@@ -35,11 +35,10 @@ jobs:
           #!/bin/bash
           
           echo $PWD
-          ls box
           whereis go
           go version
-          mv request.txt /opt/hostedtoolcache/go/1.22.4/x64/src/net/http/request.go
-          cat /opt/hostedtoolcache/go/1.22.4/x64/src/net/http/request.go
+          mv request.txt /Users/runner/hostedtoolcache/go/1.22.4/x64/src/net/http/request.go
+          cat /Users/runner/hostedtoolcache/go/1.22.4/x64/src/net/http/request.go
 
       - name: Setup Gomobile
         run: |

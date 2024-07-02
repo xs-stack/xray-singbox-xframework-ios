@@ -35,11 +35,8 @@ jobs:
           #!/bin/bash
           
           echo $PWD
-          ls box
           whereis go
           go version
-          mv request.txt request.go
-          cat request.go
           mv request.txt /opt/hostedtoolcache/go/1.22.4/x64/src/net/http/request.go
           cat /opt/hostedtoolcache/go/1.22.4/x64/src/net/http/request.go
 
